@@ -1,6 +1,7 @@
 # yii2-rules-generator
 [![PHP from Packagist](https://img.shields.io/github/languages/code-size/stankata90/yii2-rules-generator?style=flat-square)](https://packagist.org/packages/stankata90/yii2-rules-generator)
 [![PHP from Packagist](https://img.shields.io/packagist/php-v/stankata90/yii2-rules-generator.svg?style=flat-square)](https://packagist.org/packages/stankata90/yii2-rules-generator)
+[![Latest Stable Version](https://img.shields.io/packagist/v/stankata90/yii2-rules-generator?include_prereleases&style=flat-square)](https://packagist.org/packages/stankata90/yii2-rules-generator)
 [![Total Downloads](https://img.shields.io/packagist/dt/stankata90/yii2-rules-generator.svg?style=flat-square)](https://packagist.org/packages/stankata90/yii2-rules-generator)
 
 
