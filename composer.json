@@ -1,0 +1,30 @@
+{
+  "name": "stankata90/yii2-rules-generator",
+  "type": "yii2-extension",
+  "description": "The Rules Generator for the Yii framework",
+  "keywords": [
+    "yii2",
+    "rules",
+    "generator",
+    "helper"
+  ],
+  "license": "BSD-3-Clause",
+  "support": {
+    "source": "https://github.com/stankata90/yii2-rules-generator"
+  },
+  "authors": [
+    {
+      "name": "Stanislav Vasilev",
+      "email": "slavi_we@abv.bg"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "yiisoft/yii2": ">=2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "stankata90\\Yii2RulesGenerator\\": ""
+    }
+  }
+}
