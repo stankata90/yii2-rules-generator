@@ -28,7 +28,7 @@ composer require stankata90/yii2-rules-generator
 
 ## Documentation
 
-#### Example standart model file:
+#### Example standard model file:
 
 ```php
 <?php
@@ -69,7 +69,7 @@ composer require stankata90/yii2-rules-generator
 ?>
 ```
 
-#### Install Generator in model
+#### Install the  Generator in model
 
 To access the generator, you need to use the trait RulesGenerator
 
@@ -113,9 +113,9 @@ To access the generator, you need to use the trait RulesGenerator
     }
 ?>
 ```
-#### Using generator
+#### Using the generator
 
-After using trait, another "rulesGenerator" method is present in the context of the model. Using this method we will generate arrays with rules for yii2.
+After using trait, another "rulesGenerator" method is presented in the context of the model. Using this method we will generate arrays with rules for yii2.
 
 ```php
 <?php
@@ -150,9 +150,9 @@ After using trait, another "rulesGenerator" method is present in the context of 
 ?>
 ```
 
-#### Create Template.
+#### Create a Template.
 
-You can create templates with initial rule settings, this would save unnecessary repeatability of rules. To create a template, extend the Custom_.php file no matter which folder it will be in. For example, "frontend\rules\StringRules.php"
+You can create templates with initial rule settings, this would save unnecessary repetition of rules. To create a template, extend the Custom_.php file no matter which folder it is in. For example, "frontend\rules\StringRules.php"
 
 
 ```php
@@ -181,7 +181,7 @@ You can create templates with initial rule settings, this would save unnecessary
 ?>
 ```
 
-#### Using Template.
+#### Using a Template.
 
 ```php
     public function rules()
@@ -199,10 +199,10 @@ You can create templates with initial rule settings, this would save unnecessary
         // use the string100 template and add more settings
         $customString = ( new StringRules('name' ) )->template_string100()->message('Custom message');
         
-        // use the string255 template and add more settings
+        // use the string255 template
         $customString255 = ( new StringRules('name' ) )->template_string255();
 
-        // send $customString and $customString255 to rulesGenerator before get all rules
+        // send $customString and $customString255 to rulesGenerator before get all the rules
         return $this->rulesGenerator( [ $customString, $customString255 ] )->getRules();
     }
 ```
